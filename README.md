@@ -19,9 +19,9 @@
 
 <h2>OFFENSIVE TOOLS</h2>
 <h3>GOBUSTER</h3>
-<p>Gobuster dir -u (URL) -w (wordlist) (Enumerate directorys and archives from webpage)</p>
-<p>Gobuster dns -d (domain) -w (wordlist) -r 8.8.8.8 (Search from a specify domain)</p>
-<p>Gobuster vhost -u (URL) -w (wordlist) (Search for virtual hosts)</p>
+<p>$gobuster dir -u (URL) -w (wordlist) (Enumerate directorys and archives from webpage)</p>
+<p>$gobuster dns -d (domain) -w (wordlist) -r 8.8.8.8 (Search from a specify domain)</p>
+<p>$gobuster vhost -u (URL) -w (wordlist) (Search for virtual hosts)</p>
 <p>-k (Ignores SSL certificate)</p>
 <p>-x php,html,txt (Search archives extensions) </p>
 <p>-o salvar.txt (Save informations in a txt archive)</p>
