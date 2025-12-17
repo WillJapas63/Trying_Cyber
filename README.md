@@ -1,7 +1,7 @@
 <h1>CYBER SECURITY</h1>
-
+<br>
 <h2>OSINTS</h2>
-<h3>1. GOOGLE DORKS</h3> 
+<h2>1. GOOGLE DORKS</h2> 
 <p>Personal Archives filetype:pdf (Search personal archives with pdf type)</p>
 <p>"Dices with number 5" (specific search)</p>
 <p>inurl:oog (Make a search with "oog" in someplace in URL)</p>
@@ -16,7 +16,7 @@
 <p>CPF's filetype:pdf OR filetype:xlsx site:gov.br (Search CPFs in pdf or sheets on gov.br) </p>
 <p>inurl: index.php (Search index.php {Main domain of a website})</p>
 
-
+<br>
 <h2>OFFENSIVE TOOLS</h2>
 <h3>GOBUSTER</h3>
 <p>$gobuster dir -u (URL) -w (wordlist) (Enumerate directorys and archives from webpage)</p>
@@ -27,3 +27,8 @@
 <p>-o salvar.txt (Save informations in a txt archive)</p>
 <p>-s 200, 204, 403 (Filter by http codes)</p>
 <p>-q (Silent mode)</p>
+
+<br>
+<h3>HYDRA</h3>
+<p>hydra -l admin -P senhas.txt 192.168.1.10 ssh</p>
+p
